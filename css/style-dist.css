@@ -1,0 +1,55 @@
+.navi{
+    height: 80px;
+    width: 100%;
+    background: red;
+    position: fixed;
+    top: 0;
+}
+.imgen{
+    height: 100vh;
+    width: 100%;
+    background-color: salmon;
+}
+.imgen__h1{
+    text-align: center;
+}
+.content{
+    height: 300px;
+    width: 100%;
+    background: crimson;
+    margin: 0;
+}
+.footer{
+    background: grey;
+    margin: 0;
+    height: 200px;
+    width: 100%;
+}
+body{
+    margin: 0%;
+    padding-top: 80px;
+}
+h1{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.text::selection{
+    color: white;
+    background: black;
+}
+.button{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    background: yellowgreen;
+    border-radius: 5px;
+    margin: .5em;
+    padding: .5em;
+    text-align: center;
+}
+.button:hover{
+    background: #ffffff;
+    color: yellowgreen;
+}
